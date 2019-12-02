@@ -3,8 +3,8 @@ data = f.readlines()
 data = data[0].strip().split(',')
 data = [int(num) for num in data]
 
-for noun in range(len(data)):
-    for verb in range(len(data)):
+for noun in range(100):
+    for verb in range(100):
         try_lst = list(data)
         try_lst[1] = noun
         try_lst[2] = verb
