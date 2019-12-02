@@ -1,6 +1,3 @@
-import math
-import numpy as np
-
 f = open('2.in','r')
 data = f.readlines()
 data = data[0].strip().split(',')
@@ -33,9 +30,5 @@ for noun in range(len(data)):
             pos3 = try_lst[place+3]
         
         if try_lst[0] == 19690720:
-            print(noun)
-            print(verb)
             print(100*noun + verb)
             exit(0)
-
-print(try_lst[0])

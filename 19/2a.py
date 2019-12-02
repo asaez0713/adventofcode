@@ -1,6 +1,3 @@
-import math
-import numpy as np
-
 f = open('2.in','r')
 data = f.readlines()
 data = data[0].strip().split(',')

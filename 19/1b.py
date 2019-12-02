@@ -1,6 +1,3 @@
-import math
-import numpy as np
-
 f = open('1.in','r')
 
 data = f.readlines()
